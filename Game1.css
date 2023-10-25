@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://th.bing.com/th/id/OIG.I92AE0R8XI0yqM8W0k1B?pid=ImgGn');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-container {
+    max-width: 700px;
+    margin-top: 20px;
+    border: 5px solid #625b5b;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #94ebb1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.options-container {
+    margin-top: 20px;
+}
+
+#options button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: none; 
+    z-index: 9999; 
+}
+.buttonfart {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional styles to improve button visibility */
+.buttonfart:hover {
+    background: #0056b3;
+}
